@@ -45,6 +45,8 @@ enum RefreshStatus {
   /// the indicator is refreshing,waiting for the finish callback
   refreshing,
 
+  readyToComplete,
+
   /// the indicator refresh completed
   completed,
 
